@@ -18,3 +18,13 @@ document.getElementById("host").innerText = data;
 
 </body>
 </html>
+
+<p id="db"></p>
+
+<script>
+fetch("/data")
+.then(res => res.text())
+.then(data => {
+document.getElementById("db").innerText = data;
+});
+</script>
