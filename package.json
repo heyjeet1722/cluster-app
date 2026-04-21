@@ -1,0 +1,25 @@
+{
+  "name": "cluster-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyjeet1722/cluster-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/heyjeet1722/cluster-app/issues"
+  },
+  "homepage": "https://github.com/heyjeet1722/cluster-app#readme",
+  "dependencies": {
+    "mysql2": "^3.22.2"
+  }
+}
